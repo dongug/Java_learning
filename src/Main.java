@@ -21,12 +21,16 @@ public class Main {
         int a = 1;
         int b = 1;
         int c = a + b;
-        System.out.println(c);
+//        System.out.println(c);
         double d = (double) a / b;
-        System.out.println(d);
-        System.out.println(a % b);
-        System.out.println(++b);
-        System.out.println(a > b);
+//        System.out.println(d);
+//        System.out.println(a % b);
+//        System.out.println(++b);
+//        System.out.println(a > b);
+
+
+        Person person1 = new Person();
+        Person person2 = new Person("Pasha");
 
     }
 }
