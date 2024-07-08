@@ -11,5 +11,27 @@ public class Conditions {
         }
 
         System.out.println(example);
+
+        int a = 2;
+
+        switch (a) {
+            case 1 -> System.out.println(1);
+            default -> System.out.println(100);
+        }
+
+
+        String s = switch (a) {
+            case 2 -> "Two";
+            default -> "Default";
+        };
+
+        int age = 17;
+
+        String info = age >= 18 ? "adult" : "teen";
+
+        System.out.println(info);
+
+        System.out.println(s);
+
     }
 }
