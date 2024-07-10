@@ -8,6 +8,7 @@ public class TestAccess {
         System.out.println(obj.defaultVar);
         // доступ к приватным переменным только внутри класса
 //        System.out.println(obj.privateVar);
+        // доступ к default переменным только внутри пакета
 
     }
 }

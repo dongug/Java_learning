@@ -7,6 +7,7 @@ public class TestAccessOtherPackage extends AccessLevels {
         AccessLevels obj = new AccessLevels();
         System.out.println(obj.publicVar);
     }
+    // доступ к protected переменным из другого пакета только через extends
     public void testProtect() {
         System.out.println(protectedVar);
     }
